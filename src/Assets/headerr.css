@@ -1,0 +1,86 @@
+/* Header styling */
+.header {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  background-image: url(../../public/slide1.jpg);
+}
+
+/* Navbar styling */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Navbar link styling */
+.nav-link {
+  font-size: 1rem; /* Adjust font size for better responsiveness */
+  margin: 0 0.5rem;color:white;
+}
+.nav-link:hover {
+  color: rgb(78, 122, 218); /* Blue color on hover */
+}
+
+/* Intro text styling */
+.intro-text {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  border-radius: 0px 50px 0px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animated text styling */
+.animated-text {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Resume button styling */
+.resume-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem; /* Adjust font size for better responsiveness */
+}
+
+/* Profile image styling */
+.profile-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+/* Social icons styling */
+.social-icons a {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

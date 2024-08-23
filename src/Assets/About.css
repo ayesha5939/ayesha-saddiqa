@@ -1,0 +1,24 @@
+.about-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    animation: slideIn 1.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .about-description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
