@@ -6,12 +6,12 @@ import profileImg from '../../src/profile.jpeg'; // Use proper import for images
 function Headerr() {
   return (
     <>
-      <Navbar expand="lg" bg="black" variant="dark" className="py-3">
+      <Navbar expand="lg" bg="black" variant="dark" className="py-3"  style={{color:'white'}}>
         <Container>
           {/* <Navbar.Brand href="#home">YourBrand</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+          <Navbar.Collapse id="basic-navbar-nav" style={{color:'white'}}>
+            <Nav className="ml-auto"  >
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#experience">Experience</Nav.Link>
@@ -26,7 +26,7 @@ function Headerr() {
       <header className="header">
         <Container>
           <Row className="align-items-center text-center text-md-left">
-            <Col xs={12} md={6} className="d-flex flex-column justify-content-center">
+            <Col xs={12} md={6} className="d-flex flex-column justify-content-center" style={{color:'white'}}>
               <div className="intro-text">
                 <h1 className="animated-text">Ayesha Saddiqa</h1>
                 <p className="animated-text">

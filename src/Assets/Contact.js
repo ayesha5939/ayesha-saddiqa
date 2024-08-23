@@ -39,7 +39,7 @@ function Contact() {
           </Col>
           <Col xs={12} md={6} className="contact-form-wrapper">
             <h2 className="mb-4 text-center text-white bg-black p-2 rounded">
-              Contact Us
+              Contact Me
             </h2>
             <Form className="contact-form" onSubmit={handleSubmit}>
               <Row className="mb-3">

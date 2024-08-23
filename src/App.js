@@ -4,6 +4,7 @@ import About from '../src/Assets/About';
 import Skills from '../src/Assets/Skills';
 import Experience from '../src/Assets/Experience';
 import Projects from '../src/Assets/Projects';
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // import Education from '../src/Assets/Education'
